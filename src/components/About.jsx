@@ -92,11 +92,16 @@ const AboutSection = () => {
                 ) }
 
                 { !reduced ? (
-                  <motion.button className="text-white w-[200px] font-medium my-8 mx-auto md:mx-0 py-3 rounded-full btn-gradient hover:scale-105 duration-200" variants={item}>
+                  <motion.button
+                    className="text-white w-[200px] font-medium my-8 mx-auto md:mx-0 py-3 rounded-full btn-gradient hover:scale-105 duration-200"
+                    variants={item}
+                    whileHover={{ y: -6, boxShadow: "0 16px 30px rgba(254, 0, 0, 0.28)" }}
+                    whileTap={{ y: -2 }}
+                  >
                     <a href="#reg">Register Now</a>
                   </motion.button>
                 ) : (
-                  <button className="text-white w-[200px] font-medium my-8 mx-auto md:mx-0 py-3 rounded-full btn-gradient hover:scale-105 duration-200"><a href="#reg">Register Now</a></button>
+                  <button className="text-white w-[200px] font-medium my-8 mx-auto md:mx-0 py-3 rounded-full btn-gradient transition-transform duration-200 hover:-translate-y-1"><a href="#reg">Register Now</a></button>
                 ) }
               </div>
             </div>
