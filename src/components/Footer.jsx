@@ -129,9 +129,9 @@ const Footer = () => {
               </div>
             </div>
             <div className="grid grid-cols-1 gap-8 lg:col-span-2 lg:grid-cols-3">
-              <div>
+              <div className="text-center lg:text-left">
                 <p className="font-semibold">Organisation</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
+                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white items-center lg:items-start">
                   <motion.a
                     whileHover={{ x: 6 }}
                     whileTap={{ scale: 0.98 }}
@@ -180,9 +180,9 @@ const Footer = () => {
                   </motion.a>
                 </nav>
               </div>
-              <div>
+              <div className="text-center lg:text-left">
                 <p className="font-semibold mb-4">Contact Information</p>
-                <nav className="flex flex-col space-y-3 text-sm text-white">
+                <nav className="flex flex-col space-y-3 text-sm text-white items-center lg:items-start">
                   <div className="flex gap-2 items-start">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -227,9 +227,9 @@ const Footer = () => {
                   </div>
                 </nav>
               </div>
-              <div>
+              <div className="text-center lg:text-left">
                 <p className="font-semibold mb-4">Email Contacts</p>
-                <nav className="flex flex-col space-y-3 text-sm">
+                <nav className="flex flex-col space-y-3 text-sm items-center lg:items-start">
                   <div className="flex flex-col">
                     <p className="text-xs text-gray-400 mb-1">Queries & Details</p>
                     <motion.a
