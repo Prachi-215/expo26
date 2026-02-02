@@ -183,7 +183,7 @@ const Footer = () => {
               <div className="text-center lg:text-left">
                 <p className="font-semibold mb-4">Contact Information</p>
                 <nav className="flex flex-col space-y-3 text-sm text-white items-center lg:items-start">
-                  <div className="flex gap-2 items-start lg:items-start items-center">
+                  <div className="flex gap-2 items-center justify-center lg:justify-start lg:items-start">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -203,7 +203,7 @@ const Footer = () => {
                       <span>Sriram & Sanket</span>
                     </div>
                   </div>
-                  <div className="flex gap-2 items-start lg:items-start items-center lg:items-start items-center">
+                  <div className="flex gap-2 items-center justify-center lg:justify-start lg:items-start">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
