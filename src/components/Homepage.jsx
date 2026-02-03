@@ -22,10 +22,8 @@ function Homepage() {
     <>
       <div className="">
         <Navbar fluid className="bg-black/40 backdrop-blur-md fixed top-0 w-full z-50">
-          <NavbarBrand>
-            <a href="https://www.ecellvnit.org/">
-              <img src={Ecell} alt="logo" className="mr-3 h-[50px] md:h-9" />
-            </a>
+          <NavbarBrand href="https://www.ecellvnit.org/">
+            <img src={Ecell} alt="logo" className="mr-3 h-[50px] md:h-9" />
             {/* <img src={Logo} alt="logo" className="mr-3 h-6 sm:h-9" /> */}
           </NavbarBrand>
 

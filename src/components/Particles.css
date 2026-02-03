@@ -78,6 +78,19 @@ footer {
   }
 }
 
+/* Respect reduced motion preference */
+.reduced-motion .particle {
+  animation: none !important;
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .particle {
+    animation: none !important;
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .particles-container {
     opacity: 0.6;
