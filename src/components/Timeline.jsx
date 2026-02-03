@@ -53,7 +53,7 @@ const Timeline = () => {
           description="Shortlisted Startups will be signing the MOUs and further details will be communicated."
         />
         <TimelineItem
-          date="8 & 9 February 2026"
+          date="14 & 15 February 2026"
           title="Live Exhibition"
           description="Awaiting Startups to showcase their amazing ideas and products."
         />

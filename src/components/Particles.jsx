@@ -5,15 +5,14 @@ const Particles = () => {
   const [particles, setParticles] = useState([]);
 
   useEffect(() => {
-    // Generate random particles
+   
     const generateParticles = () => {
       const particleCount = 40;
       const newParticles = Array.from({ length: particleCount }, (_, i) => ({
         id: i,
         left: Math.random() * 100,
         top: Math.random() * 100,
-        size: Math.random() * 10 + 6, // 6-16px (small to medium, slightly larger)
-        duration: Math.random() * 20 + 18, // 18-38s
+        size: Math.random() * 10 + 6, 
         delay: Math.random() * 5,
       }));
       setParticles(newParticles);

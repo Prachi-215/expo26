@@ -31,14 +31,14 @@ export default function Register() {
   const handleChallanChange = (e) => {
     setChallan(e.target.value);
     formData.challan = e.target.value;
-    setChallanError(""); // Reset error when user starts typing
+    setChallanError(""); 
   };
 
-  // Register.jsx
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Validate form fields
+   
     const validationErrors = validateForm(formData);
     setChallanError("");
 
@@ -47,7 +47,7 @@ export default function Register() {
       return;
     }
 
-    // Validate Challan Number
+    
     if (!challan) {
       throw new Error("Please provide the challan number of your payment.");
     }

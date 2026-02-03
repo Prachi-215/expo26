@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-/* Hide particles in footer area */
+
 footer {
   position: relative;
   z-index: 10;
@@ -40,7 +40,7 @@ footer {
   }
 }
 
-/* Add more complex motion paths for variety */
+
 @keyframes float-particle-left {
   0% {
     transform: translateY(0px) translateX(0px);
@@ -78,7 +78,6 @@ footer {
   }
 }
 
-/* Reduce particles on mobile */
 @media (max-width: 768px) {
   .particles-container {
     opacity: 0.6;

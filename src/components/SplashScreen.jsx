@@ -3,7 +3,7 @@ import './SplashScreen.css';
 
 const SplashScreen = ({ onComplete }) => {
   useEffect(() => {
-    // Auto-complete after animation finishes (3 seconds total: 1.5s display + 1.5s fade)
+    
     const timer = setTimeout(() => {
       onComplete();
     }, 3000);

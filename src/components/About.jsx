@@ -93,7 +93,7 @@ const AboutSection = () => {
 
                 { !reduced ? (
                   <motion.button
-                    className="text-white w-[200px] font-medium my-8 mx-auto md:mx-0 py-3 rounded-full btn-gradient hover:scale-105 duration-200"
+                    className="text-white w-[200px] font-medium my-8 mx-auto md:mx-0 py-3 rounded-full btn-gradient transition-transform duration-200 hover:-translate-y-2 hover:shadow-[0_18px_35px_rgba(254,0,0,0.35)] focus-visible:-translate-y-2 focus-visible:shadow-[0_18px_35px_rgba(254,0,0,0.35)] active:translate-y-0"
                     variants={item}
                     whileHover={{ y: -6, boxShadow: "0 16px 30px rgba(254, 0, 0, 0.28)" }}
                     whileTap={{ y: -2 }}
@@ -101,7 +101,7 @@ const AboutSection = () => {
                     <a href="#reg">Register Now</a>
                   </motion.button>
                 ) : (
-                  <button className="text-white w-[200px] font-medium my-8 mx-auto md:mx-0 py-3 rounded-full btn-gradient transition-transform duration-200 hover:-translate-y-1"><a href="#reg">Register Now</a></button>
+                  <button className="text-white w-[200px] font-medium my-8 mx-auto md:mx-0 py-3 rounded-full btn-gradient transition-transform duration-200 hover:-translate-y-2 hover:shadow-[0_18px_35px_rgba(254,0,0,0.35)] focus-visible:-translate-y-2 focus-visible:shadow-[0_18px_35px_rgba(254,0,0,0.35)] active:translate-y-0"><a href="#reg">Register Now</a></button>
                 ) }
               </div>
             </div>

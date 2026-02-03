@@ -11,11 +11,11 @@ export const registerUser = async (formData) => {
     }
   );
 
-  // Check if the response is OK, otherwise throw an error
+  
   if (!response.ok) {
     throw new Error("Email already exist");
   }
 
   const responseData = await response.json();
-  return responseData.message; // Expecting 'message' from the backend
+  return responseData.message; 
 };
